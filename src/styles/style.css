@@ -1,0 +1,245 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #ffeee5;
+  font-family: "Sen", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(33, 37, 41, 1);
+}
+
+h1 {
+  font-size: 6vw;
+  padding: 1vw;
+  text-align: left;
+}
+
+h3 {
+  font-size: 4vw;
+  text-align: right;
+}
+
+p {
+  font-family: "Sen", sans-serif;
+  /* font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em; */
+}
+
+a {
+  color: #83adac;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ce6b52;
+}
+
+#splash {
+  background-image: radial-gradient(
+      rgba(157, 207, 206, 0),
+      rgba(206, 107, 82, 0.6)
+    ),
+    url(sky.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 3vw solid #f2d3c4;
+  border-bottom: 5vw solid #f2d3c4;
+  border-top: 5vw solid #f2d3c4;
+}
+
+#splash > div {
+  border: 5px solid rgba(33, 37, 41, 1);
+  height: 70%;
+  width: 70%;
+}
+
+#splash > div > div {
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+#splash > div > div > div {
+  bottom: 5%;
+  position: absolute;
+  text-align: center;
+}
+
+/* #splash > div > div > div > h4 {
+    display: inline;
+    padding: 0 1em 0 1em;
+    text-align: center;
+  } */
+
+#splash h1 {
+  font-size: 7vh;
+  padding: 2vh;
+  text-align: left;
+}
+
+#splash h3 {
+  font-size: 5vh;
+  text-align: right;
+  padding: 2vh;
+}
+
+#splash a {
+  display: inline-block;
+  font-size: 3vh;
+  font-family: "Sen", sans-serif;
+  color: rgba(33, 37, 41, 1);
+  font-weight: normal;
+  padding: 2vh;
+}
+
+#about {
+  position: relative;
+  height: 110vh;
+
+  /* margin: 2vw; */
+  background-image: radial-gradient(
+      rgba(3, 211, 252, 0.5),
+      rgba(3, 211, 252, 0.1)
+    ),
+    url(sky2.jpg);
+  /* Full height */
+  /* height: 10vh; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-top: 100px solid rgba(33, 37, 41, 1);
+    border-bottom: 100px solid rgba(33, 37, 41, 1); */
+}
+
+#about #about-top {
+  border: 5px solid rgba(33, 37, 41, 1);
+  background-color: #ffeee5;
+  margin: 0;
+  position: absolute;
+  width: 50vw;
+  height: 60vh;
+  top: 10vw;
+  left: 2vw;
+}
+
+#about #about-bottom {
+  border: 5px solid rgba(33, 37, 41, 1);
+  background-color: #ffeee5;
+  margin: 0;
+  position: absolute;
+  width: 50vw;
+  height: 60vh;
+  bottom: 10vw;
+  right: 2vw;
+}
+
+#about div {
+  padding: 2vw;
+}
+
+#about img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid rgba(33, 37, 41, 1);
+}
+
+#portfolio {
+  border: 5px solid rgba(33, 37, 41, 1);
+  margin: 5vw 3vw;
+}
+
+#portfolio .portfolio_items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5%;
+  margin: 5vw;
+}
+
+#portfolio .portfolio_item {
+  /* background-color: #F2D3C4; */
+  /* border: 5px solid #F2D3C4; */
+  /* border: 5px solid #F2D3C4; */
+  padding: 9% 4%;
+}
+
+#portfolio .portfolio_items h4 {
+  text-align: right;
+}
+
+#portfolio .portfolio_items p {
+  text-align: justify;
+}
+
+#portfolio .portfolio_items .portfolio_text {
+  padding-top: 3vh;
+}
+
+#portfolio .portfolio_items img {
+  border: 1px solid rgba(33, 37, 41, 1);
+  box-shadow: 10px 10px #f2d3c4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio .table {
+  padding: 20vw;
+  width: 100%;
+}
+
+#portfolio .portfolio_items th {
+  color: #ce6b52;
+  padding: 2vh 0 1vh 0;
+}
+
+#portfolio th,
+td,
+h4,
+h5,
+h1 {
+  font-family: "Sen", sans-serif;
+}
+
+#portfolio h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#portfolio .table thead th {
+  border-top: none;
+}
+
+#portfolio .table th,
+.table td,
+.table thead th {
+  border-color: #f2d3c4;
+}
+
+#footer {
+  background-color: rgba(33, 37, 41, 1);
+  height: 1vw;
+}
