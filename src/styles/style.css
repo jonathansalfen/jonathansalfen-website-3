@@ -50,7 +50,7 @@ a:hover {
       rgba(157, 207, 206, 0),
       rgba(206, 107, 82, 0.6)
     ),
-    url(sky.jpg);
+    url(../assets/sky.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ a:hover {
       rgba(3, 211, 252, 0.5),
       rgba(3, 211, 252, 0.1)
     ),
-    url(sky2.jpg);
+    url(../assets/sky2.jpg);
   /* Full height */
   /* height: 10vh; */
 
