@@ -44,7 +44,7 @@
       </div>
       <div id="about-bottom">
         <img
-          src="images/jonathan-trevi.jpeg"
+          src="../assets/jonathan-trevi.jpeg"
           alt="Jonathan in front of the Trevi fountain"
         />
       </div>
@@ -138,7 +138,7 @@
               target="_blank"
             >
               <img
-                src="images/story_screenshot.png"
+                src="../assets/story_screenshot.png"
                 class="portfolio_pics"
                 alt="Responsive image"
               />
@@ -173,7 +173,7 @@
           <div class="portfolio_item">
             <a href="/alphabet_reader/" target="_blank">
               <img
-                src="images/alphabetreader_thumb.png"
+                src="../assets/alphabetreader_thumb.png"
                 class="portfolio_pics"
                 alt="Responsive image"
               />
@@ -206,7 +206,7 @@
           <div class="portfolio_item">
             <a href="/prototype_lumber/" target="_blank">
               <img
-                src="images/lumber_thumb.jpg"
+                src="../assets/lumber_thumb.jpg"
                 class="portfolio_pics"
                 alt="Responsive image"
               />
@@ -232,7 +232,7 @@
           <div class="portfolio_item">
             <a href="/three_challenges/" target="_blank">
               <img
-                src="images/threechallenges_thumb.png"
+                src="../assets/threechallenges_thumb.png"
                 class="portfolio_pics"
                 alt="Responsive image"
               />
@@ -268,22 +268,3 @@
 <script>
 export default {};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1,
-h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
